@@ -1,0 +1,5 @@
+.venv/
+.env
+turning-ideas/
+backend.zip
+evaluations.py

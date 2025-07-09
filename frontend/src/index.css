@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url("./assets/fonts/IBMPlexSans-VariableFont_wdth\,wght.ttf")
+    format("ttf");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url("./assets/fonts/IBMPlexSans-Italic-VariableFont_wdth\,wght.ttf")
+    format("ttf");
+}
+
+:root {
+  font-family: "IBM Plex Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: radial-gradient(
+      circle at right bottom,
+      #0077ff34 0%,
+      rgb(27, 25, 25) 50%
+    ),
+    radial-gradient(circle at left, #001a1c 0%, #1b1919 50%);
+  height: 100vh;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
