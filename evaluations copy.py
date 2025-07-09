@@ -1,8 +1,6 @@
 from langchain.evaluation import load_evaluator
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-api_key  = "AIzaSyDpnAn5_EpwuJWkHZubXaQ3TsZeSTuqGGg"
-
 # Initialize the Gemini model
 llm = ChatGoogleGenerativeAI(
     model="models/gemini-1.5-flash", api_key=api_key, temperature=0.0
